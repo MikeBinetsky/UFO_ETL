@@ -15,5 +15,5 @@ Bird data before cleaning: https://github.com/haodong191/UPenn_Project2/blob/mas
 Bird data after cleaning: https://github.com/haodong191/UPenn_Project2/blob/master/Images/Bird_after_data_transform.png?raw=true
 UFO data before cleaning: https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO%20before%20data%20transform.png
 UFO data after cleaning: https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO_after_data_transform.png
-
+UFO data after cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO_after_data_transform.png)
 
