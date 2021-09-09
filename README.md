@@ -11,9 +11,8 @@ Bird Data:
 Reviewed data and decided to drop the following columns: 'location ID', 'observation valid', 'observation reviewed', 'location private', ‘Sub ID’. Only called data from California to match data in UFO. The dataframe before cleaning had rows and columns switched, therefore transposed data changing rows to columns and downloaded as csv file. Due to the large amount of data called from Bird data, data was saved under multiple csvs, one for each year. Merged all csvs for years 2003 through 2013. Split datetime column to get a year column, then filtered to keep only data from 2003 to 2013 and created a new dataframe with the filtered data. Imported SQLAlchemy as dependency. Due to the large csv file of Bird Data, zipping the file was necessary to manage data size. We discovered that PD.read_csv will read a zipped csv file. To load into Postgres we used the dependency getpass to store our password. We made the connection to Postgres with ‘create engine’ and passed in the connection string. We then loaded the dataframe with the table name of “Bird Data” and used the arguments if_exists = fail, index = False. if_exists was used so that rows are not duplicated when data is loaded at a later time. Index = false was used to remove the index from the data frame because it is irrelevant.
 
 Screenshots:
-Bird data before cleaning: https://github.com/haodong191/UPenn_Project2/blob/master/Images/Bird_before_data_transform.png
-Bird data after cleaning: https://github.com/haodong191/UPenn_Project2/blob/master/Images/Bird_after_data_transform.png?raw=true
-UFO data before cleaning: https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO%20before%20data%20transform.png
-UFO data after cleaning: https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO_after_data_transform.png
+Bird data before cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/Bird_before_data_transform.png)
+Bird data after cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/Bird_after_data_transform.png?raw=true)
+UFO data before cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO%20before%20data%20transform.png)
 UFO data after cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO_after_data_transform.png)
 
