@@ -14,7 +14,7 @@ Screenshots:
 
 Bird data before cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/Bird_before_data_transform.png)
 
-Bird data after cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/Bird_after_data_transform.png?raw=true)
+Bird data after cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/Bird_after_data_transform.png)
 
 UFO data before cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO%20before%20data%20transform.png)
 
