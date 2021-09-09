@@ -20,3 +20,12 @@ UFO data before cleaning: ![image info](https://github.com/haodong191/UPenn_Proj
 
 UFO data after cleaning: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/UFO_after_data_transform.png)
 
+Database diagram: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/Database_Diagram.PNG)
+
+Bird to pgAdmin: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/bird_to_pgadmin.PNG)
+
+pgAdmin search by date: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/pgadmin_search_by%20date.PNG)
+
+UFO to pgAdmin: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/ufo_to_pgadmin.PNG)
+
+Source mapping: ![image info](https://github.com/haodong191/UPenn_Project2/blob/master/Images/documentation_record.png)
